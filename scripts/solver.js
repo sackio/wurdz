@@ -87,7 +87,8 @@ try {
     if (solution) return true;
   });
   
-  let csv = _.map(solutions, mask => {
+  let csv = `consonant_mask,word_length,vowel_count,word_1,word_2,word_3,word_4,word_5\n`;
+  csv += _.map(solutions, mask => {
     return `${mask.consonant_mask},${mask.words.length},${mask.vowel_count},`
           + _.map(mask.words, 'word').join(',');
   }).join('\n');

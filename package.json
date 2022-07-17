@@ -1,0 +1,23 @@
+{
+  "name": "wurd",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "async": "~3.2.3",
+    "delay": "~5.0.0",
+    "dotenv": "~8.2.0",
+    "lodash": "~4.17.21",
+    "moment": "~2.29.3",
+    "optionator": "~0.8.3",
+    "tmp": "~0.2.1",
+    "node-fetch": "~2.6.0",
+    "fs-extra": "~10.0.1",
+    "tmp": "~0.2.1",
+    "mongodb": "~4.1.0",
+    "fast-csv": "~4.3.6",
+    "word-list": "~3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
